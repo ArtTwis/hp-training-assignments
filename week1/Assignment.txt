@@ -48,3 +48,4 @@ Understanding style components
 
 -  Let's create another React application for Understanding Styled-components
 Move to the styled-components directory from terminal and run command "npm start".
+And in the same project you'll find Rendering multiple components example.
