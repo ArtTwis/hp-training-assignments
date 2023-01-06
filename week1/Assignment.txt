@@ -1,0 +1,50 @@
+What is React JS?
+- React is Javascript library used to create a single page web application. It is developed by Facebook developers.
+React makes it simple to craete a Interactive and complex UIs. it uses createElement function to create an element into the Webpage.
+
+==========================================================================================================================================================================================
+
+Advantages of React :-
+-    Debugging process is very easy in Reactand we can reuse the components instead of making a new component each time.
+-    It’s easy to learn because of its easy and simple design.
+-    It allows developers to migrate an app in React very easily.
+-    It supports both Android and iOS platforms using React-Native package.
+-    It has faster updates with both server-side and front-end support.
+
+
+==========================================================================================================================================================================================
+
+There're multiple ways to generate a React Project.
+Let generate a simple React project where we display "Hello World!".
+For that open helloworld.html file and run it on browser using LiveServer or anyway you know.
+
+
+==========================================================================================================================================================================================
+
+Let's create another React application using Javascript module system.
+Move to the javascript-module-system directory from terminal and run command "npm run start".
+In this simple project you'll see I have imported react and react-dom packages and used them. Actually here we're importing modules from these packages. 
+So that's the example of Javascript Module System
+
+
+==========================================================================================================================================================================================
+
+
+Introduction to JSX and TSX
+
+-  JSX
+.jsx is a syntax extension to JavaScript - Developed by Facebook Developer.
+It is basicallt a React element. Babel behind the seen is converting JSX into React.createElement (ie. React element) and than JS engine converts that element into Object and than it display on DOM.
+It is not a HTML but it looks like HTML tag.
+
+-  TSX
+.tsx is similar to jsx except it's TypeScript with the JSX language extension.
+
+
+==========================================================================================================================================================================================
+
+
+Understanding style components
+
+-  Let's create another React application for Understanding Styled-components
+Move to the styled-components directory from terminal and run command "npm start".
