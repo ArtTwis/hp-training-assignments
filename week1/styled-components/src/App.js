@@ -23,7 +23,7 @@ function App() {
     border-radius: 50%;
   `;
 
-  const Portion = styled.div`
+  const Headings = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,17 +52,25 @@ function App() {
     color: #fff;
   `;
 
+  const headingArray = [
+    'Project : HP S&M',
+    'Team : PAT',
+    'Role : Frontend Developer',
+  ];
+
   return (
     <Container>
       <Logo>
         <img src={Avatar} alt='avatar' />
       </Logo>
-      <Portion>
+      <Headings>
         <MediumText>Twinkle Goyal</MediumText>
-      </Portion>
-      <Portion>
-        <SmallText>Project : HP S&M</SmallText>
-      </Portion>
+      </Headings>
+      {headingArray.map((heading, index) => (
+        <Headings>
+          <SmallText>{heading}</SmallText>
+        </Headings>
+      ))}
       <Btn>
         <SmallText>Styled Component</SmallText>
       </Btn>
