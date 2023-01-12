@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(./Fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'ComfortaaMedium';
+  src: url(./Fonts/Comfortaa-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'ComfortaaBold';
+  src: url(./Fonts/Comfortaa-Bold.ttf);
+}
+
+:root {
+  --font-Comfortaa-Regular: 'Comfortaa';
+  --font-Comfortaa-Medium: 'ComfortaaMedium';
+  --font-Comfortaa-Bold: 'ComfortaaBold';
+}

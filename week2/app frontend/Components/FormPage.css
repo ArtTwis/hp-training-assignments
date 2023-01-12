@@ -1,0 +1,50 @@
+#form_container {
+  width: 100%;
+  min-height: calc(100vh - 150px);
+  max-height: auto !important;
+  background: #333333;
+}
+
+#signin_form,
+#signup_form {
+  width: 25%;
+  min-height: 300px;
+  max-height: auto;
+  background-color: #ffaa1d;
+  border-radius: 7px;
+  box-shadow: 0.5rem 0.5rem #00000062, -0.5rem -0.5rem #4242426e;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem !important;
+}
+
+#form_heading {
+  font-size: 1.5rem;
+  font-family: var(--font-Comfortaa-Bold);
+  font-weight: bold;
+  color: #333333;
+  margin-top: 1rem;
+}
+
+#form_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#signin_btn,
+#signup_btn {
+  background-color: #03ac13;
+  color: whitesmoke;
+}
+
+Form {
+  margin: 1.5rem 0;
+}
